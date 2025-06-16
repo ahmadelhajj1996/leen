@@ -416,7 +416,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const addressLines = contactCol.querySelectorAll("address p");
     addressLines[0].innerHTML = `<i class="fas fa-map-marker-alt"></i> ${langData.addressLine1}`;
-    addressLines[1].innerHTML = `<i class="fas fa-phone"></i> ${langData.phoneLabel}`;
     addressLines[2].innerHTML = `<i class="fas fa-envelope"></i> ${langData.emailLabel}`;
     addressLines[3].innerHTML = `<i class="fas fa-clock"></i> ${langData.hours}`;
 
