@@ -330,9 +330,6 @@ document.addEventListener("DOMContentLoaded", function () {
     document.querySelector(".home-content h1").textContent = langData.heroTitle;
     document.querySelector(".home-content p").textContent =
       langData.heroSubtitle;
-    document.querySelector(".whatsapp-btn span").textContent =
-      langData.ctaButton;
-    document.querySelector(".call-btn span").textContent = langData.callButton;
 
     // Update courses section
     document.querySelector(".services .section-title").textContent =
